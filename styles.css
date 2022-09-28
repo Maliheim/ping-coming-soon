@@ -14,7 +14,6 @@
 }
 
 .cont{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,26 +21,24 @@
 
 .p1{
     margin-top: 42px;
-    font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.p2{
+    margin-top: 42px;
+    font-size: 42px;
+    color: var(--color4);
 }
 
 #p2b{
     color: var(--color5);
 }
 
-.p2{
-    margin-top: 42px;
-    font-size: 20px;
-    color: var(--color4);
-}
-
 .p3{
     margin-top: 42px;
+    margin-bottom: 42px;
     font-size: 20px;
-}
-
-.input{
 }
 
 #inputfield{
@@ -54,23 +51,60 @@
 }
 
 #submitbtn{
+    margin-left: 12px;
     width: 142px;
     height: 42px;
     border-radius: 20px;
     background-color: var(--color1);
     border: none;
     color: white;
-}
-
-.img{
-    
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.206);
 }
 
 .previewimg{
-    width: 60%;
+    margin-top: 64px;
+    margin-bottom: 42px;
+    width: 40%;
     height: auto;
 }
 
 .links{}
 
-.copyright{}
+.copyright{
+    margin-top: 42px;
+    margin-bottom: 42px;
+    color: var(--color4);
+    font-weight: 300;
+    font-size: 12px;
+}
+
+@media(max-width:880px){
+
+    .p1{
+        font-size: 24px;
+    }
+
+    .p2{
+        font-size: 24px;
+    }
+
+    .p3{
+        font-size: 16px;
+    }
+
+    .previewimg{
+        width: 80%;
+    }
+
+    .input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #submitbtn{
+        width: 360px;
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+}
