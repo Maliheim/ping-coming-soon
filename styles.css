@@ -5,6 +5,10 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 
+body{
+    background-color: rgba(245, 245, 245, 0.301);
+}
+
 :root{
     --color1: hsl(223, 87%, 63%);
     --color2: hsl(223, 100%, 88%);
