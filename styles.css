@@ -27,6 +27,10 @@
     font-size: 32px;
 }
 
+#period{
+    color: var(--color1)
+}
+
 .p2{
     margin-top: 42px;
     font-size: 42px;
@@ -63,6 +67,10 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.206);
 }
 
+#submitbtn:hover{
+    transform: scale(1.1)
+}
+
 #err{
     color: var(--color3);
     font-size: 12px;
@@ -78,7 +86,47 @@
     height: auto;
 }
 
-.links{}
+#ficon{
+    width: 42px;
+    height: 42px;
+    margin-bottom: 2px;
+    background: transparent;
+    border: 1px solid var(--color4);
+    border-radius: 50%;
+    outline: none;
+}
+
+#ficon img{
+    width: 21px;
+}
+
+#ticon{
+    width: 42px;
+    height: 42px;
+    margin-left: 42px;
+    margin-right: 42px;
+    background: transparent;
+    border: 1px solid var(--color4);
+    border-radius: 50%;
+    outline: none;
+}
+
+#ticon img{
+    width: 24px;
+}
+
+#iicon{
+    width: 42px;
+    height: 42px;
+    background: transparent;
+    border: 1px solid var(--color4);
+    border-radius: 50%;
+    outline: none;
+}
+
+#iicon img{
+    width: 24px;
+}
 
 .copyright{
     margin-top: 42px;
